@@ -1,0 +1,7 @@
+
+    <div class="weather-tile" [class]="backgroundTile(cityWeather.icon)" (click)="openWeatherMapUrl()">
+        <div class="city">{{ cityWeather.city }}</div>
+        <div class="description">{{ cityWeather.description }}</div>
+        <img [src]="'assets\/icons\/'+ cityWeather?.icon +'.png'"/>
+        <div class="temperature">{{ cityWeather.temperature }} °C</div>
+    </div>

@@ -1,0 +1,71 @@
+.weather-tile {
+    width: 20vw;
+    min-width: 300px;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1cqh;
+    cursor: pointer;
+}
+
+img {
+    width: 100%; 
+    max-width: 150px;
+    margin-inline: auto; 
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.city {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 24px;
+}
+
+.description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.clear-sky {
+    background: linear-gradient(165deg, #ECA56F, #D3496B);
+}
+
+.few-clouds {
+    background: linear-gradient(165deg, #43cea2, #185a9d);
+}
+
+.scattered-clouds {
+    background: linear-gradient(165deg, #FFA17F, #00223E);
+}
+
+.broken-clouds {
+    background: linear-gradient(165deg, #360033, #0b8793);
+}
+
+.shower-rain {
+    background: linear-gradient(165deg, #83a4d4, #b6fbff);
+}
+
+.rain {
+    background: linear-gradient(165deg, #085078, #85d8ce);
+}
+
+.thunderstorm {
+    background: linear-gradient(165deg, #e6dada, #274046);
+}
+
+.snow {
+    background: linear-gradient(165deg, #616161, #9bc5c3);
+}
+
+.mist {
+    background: linear-gradient(165deg, #757f9a, #d7dde8);
+}
